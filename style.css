@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 410px;
+    margin-top: 98px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+.input-min,
+.input-max {
+    background-color: gray;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-left: 30px;
+    opacity: 0.7;
+    position: relative;
+    left: 27%;
+    top: 6px;
+
+}
+
+/*desta forma abaixo eu utilizei para estilizar o texto do elemento placeholder usado
+input::placeholder*/
+input::placeholder {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 17px;
+
+
+}
+
+/* este .input-min,
+.input-max[type="number"]::-webkit-input-placeholder foi criado para trocar 
+a cor do numero e a fonte dos numero*/
+.input-min,
+.input-max [type="number"]::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-max,
+.input-min [type="number"]::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #AEC346;
+    margin-left: 454px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
