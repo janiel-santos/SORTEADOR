@@ -92,3 +92,62 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+@media screen and (max-width:900px){
+  
+
+
+  
+  
+
+
+img {
+   margin-left:100px;
+    margin-top:20px; 
+    width:150px ;
+    height:100px ;
+}
+   
+
+
+h2 {
+    
+    margin-left: 89px;
+    margin-top: 50px;
+
+}    
+ 
+
+
+.input-max {
+    margin-left: 100px;
+    width: 100px;
+    position: absolute;top:220px;left:85px;
+}
+
+.input-min {
+  position: absolute;top:220px;left: 29px;
+  width: 100px;
+}
+
+
+
+
+button {
+
+margin-top: 100px;
+margin-left:70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
