@@ -102,7 +102,7 @@ button:active {
 
 
 img {
-   margin-left:60px;
+   margin-left:70px;
     margin-top:20px; 
     width:230px ;
     height:130px ;
@@ -122,11 +122,11 @@ h2 {
 .input-max {
     margin-left: 100px;
     width: 100px;
-    position: absolute;top:280px;left:85px;
+    position: absolute;top:280px;left:100px;
 }
 
 .input-min {
-  position: absolute;top:280px;left: 29px;
+  position: absolute;top:280px;left: 40px;
   width: 100px;
 }
 
@@ -136,7 +136,7 @@ h2 {
 button {
 
 margin-top: 200px;
-margin-left:70px;
+margin-left:83px;
 
 }
 
